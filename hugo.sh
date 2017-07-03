@@ -1,2 +1,2 @@
 #!/bin/bash
-hugo server -p 8080 --theme=hyde --buildDrafts
+hugo server -p 8888 --theme=hyde --buildDrafts

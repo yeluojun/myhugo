@@ -1,4 +1,4 @@
-baseURL = "http://yeluojun.club/"
+# baseURL = "http://yeluojun.club/"
 languageCode = "en-us"
 title = "jun write"
 publishDir = "docs"

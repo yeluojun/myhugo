@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 随记</title>
-    <link>/categories/</link>
+    <link>https://yeluojun.github.io/myhugo/categories/</link>
     <description>Recent content in Categories on 随记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/yeluojun).</copyright>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yeluojun.github.io/myhugo/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markdown</title>
-      <link>/categories/markdown/</link>
+      <link>https://yeluojun.github.io/myhugo/categories/markdown/</link>
       <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
       
-      <guid>/categories/markdown/</guid>
+      <guid>https://yeluojun.github.io/myhugo/categories/markdown/</guid>
       <description></description>
     </item>
     

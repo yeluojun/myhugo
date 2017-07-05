@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://yeluojun.github.io/myhugo/"
 languageCode = "en-us"
 title = "随记"
 # Enable comments by entering your Disqus shortname

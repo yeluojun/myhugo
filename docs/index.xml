@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>随记</title>
-    <link>/</link>
+    <link>https://yeluojun.github.io/myhugo/</link>
     <description>Recent content on 随记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/yeluojun).</copyright>
     <lastBuildDate>Sat, 20 May 2017 12:10:51 +0200</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yeluojun.github.io/myhugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markdown Cheat Sheet</title>
-      <link>/2017/05/20/markdown-cheat-sheet/</link>
+      <link>https://yeluojun.github.io/myhugo/2017/05/20/markdown-cheat-sheet/</link>
       <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
       
-      <guid>/2017/05/20/markdown-cheat-sheet/</guid>
+      <guid>https://yeluojun.github.io/myhugo/2017/05/20/markdown-cheat-sheet/</guid>
       <description>&lt;p&gt;This note demonstrates some of what &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; is capable of doing.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Note: Feel free to play with this page. Unlike regular notes, this doesn&amp;rsquo;t automatically save itself.&lt;/em&gt;&lt;/p&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>Using the gallery shortcode</title>
-      <link>/2017/05/20/using-the-gallery-shortcode/</link>
+      <link>https://yeluojun.github.io/myhugo/2017/05/20/using-the-gallery-shortcode/</link>
       <pubDate>Sat, 20 May 2017 12:00:23 +0200</pubDate>
       
-      <guid>/2017/05/20/using-the-gallery-shortcode/</guid>
+      <guid>https://yeluojun.github.io/myhugo/2017/05/20/using-the-gallery-shortcode/</guid>
       <description>&lt;p&gt;This way you can easily include a gallery into your page. Copy the code below into your content file and enter the relative paths to your images.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

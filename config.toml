@@ -23,7 +23,7 @@ publishDir = "docs"
     bio = "Go - Ruby - developer"
     location = "China"
     site_description = ""
-    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/yeluojun)."
+    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun)."
     avatar = "css/images/avatar.png"
     # Enter your email address to display your Gravatar icon in the profile. If not set the theme
     # will fallback to the avatar.
@@ -47,10 +47,6 @@ publishDir = "docs"
 #
 # E.g.: "Home" appears before all linked posts in the menu
 # and "Tags" / "Categories" after them.
-[[params.menu]]
-    before = true
-    label  = "主页"
-    link   = "/"
 
 [[params.menu]]
     before = false

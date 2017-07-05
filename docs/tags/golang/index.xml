@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Golang on Jun Write</title>
-    <link>/tags/golang/</link>
-    <description>Recent content in Golang on Jun Write</description>
+    <title>Golang on 随记</title>
+    <link>https://yeluojun.github.io/myhugo/tags/golang/</link>
+    <description>Recent content in Golang on 随记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
-    <lastBuildDate>Mon, 03 Jul 2017 23:43:16 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jul 2017 14:26:00 +0800</lastBuildDate>
     
-	<atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yeluojun.github.io/myhugo/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ruby代理服务器</title>
-      <link>/ruby/ruby%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
-      <pubDate>Mon, 03 Jul 2017 23:43:16 +0800</pubDate>
+      <title>通过chanel对Go进行并发控制</title>
+      <link>https://yeluojun.github.io/myhugo/2017/07/05/%E9%80%9A%E8%BF%87chanel%E5%AF%B9go%E8%BF%9B%E8%A1%8C%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6/</link>
+      <pubDate>Wed, 05 Jul 2017 14:26:00 +0800</pubDate>
       
-      <guid>/ruby/ruby%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
-      <description></description>
+      <guid>https://yeluojun.github.io/myhugo/2017/07/05/%E9%80%9A%E8%BF%87chanel%E5%AF%B9go%E8%BF%9B%E8%A1%8C%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6/</guid>
+      <description>使用chan来控制并发 直接代码：
+ctl.go
+package rctl import &amp;quot;sync&amp;quot; type Rctl struct { Queue chan int Wg *sync.WaitGroup } func (r *Rctl) FuncCtl(f func(int), i int) { // 并发操作 go func() { r.Queue &amp;lt;- 1 f(i) &amp;lt;-r.Queue r.Wg.Done() }() }  ctl_test.go
+package rctl import ( &amp;quot;fmt&amp;quot; &amp;quot;sync&amp;quot; &amp;quot;testing&amp;quot; ) func Test_FuncCtl(t *testing.T) { rt := Rctl{ Queue: make(chan int, 100), // 缓冲区为100 Wg: new(sync.WaitGroup), } rt.Wg.Add(400) for i := 100; i &amp;lt; 500; i++ { rt.</description>
     </item>
     
   </channel>

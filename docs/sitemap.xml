@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yeluojun.github.io/myhugo/2017/05/20/markdown-cheat-sheet/</loc>
-    <lastmod>2017-05-20T12:10:51+02:00</lastmod>
+    <loc>https://yeluojun.github.io/myhugo/2017/07/05/%E9%80%9A%E8%BF%87chanel%E5%AF%B9go%E8%BF%9B%E8%A1%8C%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6/</loc>
+    <lastmod>2017-07-05T14:26:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yeluojun.github.io/myhugo/2017/05/20/using-the-gallery-shortcode/</loc>
-    <lastmod>2017-05-20T12:00:23+02:00</lastmod>
+    <loc>https://yeluojun.github.io/myhugo/2017/05/20/markdown-cheat-sheet/</loc>
+    <lastmod>2017-05-20T12:10:51+02:00</lastmod>
   </url>
   
   <url>
@@ -19,6 +19,24 @@
   
   <url>
     <loc>https://yeluojun.github.io/myhugo/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yeluojun.github.io/myhugo/tags/chanel/</loc>
+    <lastmod>2017-07-05T14:26:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yeluojun.github.io/myhugo/tags/golang/</loc>
+    <lastmod>2017-07-05T14:26:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yeluojun.github.io/myhugo/categories/golang/</loc>
+    <lastmod>2017-07-05T14:26:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,19 +54,25 @@
   
   <url>
     <loc>https://yeluojun.github.io/myhugo/post/</loc>
-    <lastmod>2017-05-20T12:10:51+02:00</lastmod>
+    <lastmod>2017-07-05T14:26:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yeluojun.github.io/myhugo/tags/</loc>
-    <lastmod>2017-05-20T12:10:51+02:00</lastmod>
+    <lastmod>2017-07-05T14:26:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yeluojun.github.io/myhugo/tags/waitgroup/</loc>
+    <lastmod>2017-07-05T14:26:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yeluojun.github.io/myhugo/</loc>
-    <lastmod>2017-05-20T12:10:51+02:00</lastmod>
+    <lastmod>2017-07-05T14:26:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   

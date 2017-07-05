@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
-    <lastBuildDate>Sat, 20 May 2017 12:10:51 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jul 2017 14:26:00 +0800</lastBuildDate>
     
 	<atom:link href="https://yeluojun.github.io/myhugo/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chanel</title>
+      <link>https://yeluojun.github.io/myhugo/tags/chanel/</link>
+      <pubDate>Wed, 05 Jul 2017 14:26:00 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/tags/chanel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://yeluojun.github.io/myhugo/tags/golang/</link>
+      <pubDate>Wed, 05 Jul 2017 14:26:00 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/tags/golang/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Markdown</title>
@@ -18,6 +36,15 @@
       <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
       
       <guid>https://yeluojun.github.io/myhugo/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Waitgroup</title>
+      <link>https://yeluojun.github.io/myhugo/tags/waitgroup/</link>
+      <pubDate>Wed, 05 Jul 2017 14:26:00 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/tags/waitgroup/</guid>
       <description></description>
     </item>
     

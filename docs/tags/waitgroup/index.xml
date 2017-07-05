@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>随记</title>
-    <link>https://yeluojun.github.io/myhugo/</link>
-    <description>Recent content on 随记</description>
+    <title>Waitgroup on 随记</title>
+    <link>https://yeluojun.github.io/myhugo/tags/waitgroup/</link>
+    <description>Recent content in Waitgroup on 随记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
     <lastBuildDate>Wed, 05 Jul 2017 14:26:00 +0800</lastBuildDate>
     
-	<atom:link href="https://yeluojun.github.io/myhugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yeluojun.github.io/myhugo/tags/waitgroup/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,19 +22,6 @@
 ctl.go
 package rctl import &amp;quot;sync&amp;quot; type Rctl struct { Queue chan int Wg *sync.WaitGroup } func (r *Rctl) FuncCtl(f func(int), i int) { // 并发操作 go func() { r.Queue &amp;lt;- 1 f(i) &amp;lt;-r.Queue r.Wg.Done() }() }  ctl_test.go
 package rctl import ( &amp;quot;fmt&amp;quot; &amp;quot;sync&amp;quot; &amp;quot;testing&amp;quot; ) func Test_FuncCtl(t *testing.T) { rt := Rctl{ Queue: make(chan int, 100), // 缓冲区为100 Wg: new(sync.WaitGroup), } rt.Wg.Add(400) for i := 100; i &amp;lt; 500; i++ { rt.</description>
-    </item>
-    
-    <item>
-      <title>Markdown Cheat Sheet</title>
-      <link>https://yeluojun.github.io/myhugo/2017/05/20/markdown-cheat-sheet/</link>
-      <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
-      
-      <guid>https://yeluojun.github.io/myhugo/2017/05/20/markdown-cheat-sheet/</guid>
-      <description>&lt;p&gt;This note demonstrates some of what &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; is capable of doing.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: Feel free to play with this page. Unlike regular notes, this doesn&amp;rsquo;t automatically save itself.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

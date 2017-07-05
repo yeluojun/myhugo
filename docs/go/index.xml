@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gos on Jun Write</title>
+    <link>/go/</link>
+    <description>Recent content in Gos on Jun Write</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
+    
+	<atom:link href="/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/go/go%E7%9A%84%E7%AE%80%E5%8D%95%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/go/go%E7%9A%84%E7%AE%80%E5%8D%95%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6%E8%AE%B0%E5%BD%95/</guid>
+      <description>title: &amp;ldquo;Go的简单并发控制记录&amp;rdquo; date: 2017-07-04T14:28:30+08:00 draft: true &amp;mdash; &amp;ndash;&amp;gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,5 +1,108 @@
-# baseURL = "http://yeluojun.club/"
+baseurl = "/"
 languageCode = "en-us"
-title = "jun write"
+title = "随记"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "spf13"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+# Define the number of posts per page
+paginate = 20
+footnotereturnlinkcontents = "↩"
+theme = "hugo-icarus-theme"
+# Comment the themesDir option if you use this theme in production
 publishDir = "docs"
-baseURL = "https://yeluojun.github.io/myhugo/"
+
+
+[permalinks]
+    post = "/:year/:month/:day/:slug"
+
+
+[params]
+    # Tell me who you are
+    author = "Jun"
+    bio = "Go - Ruby - developer"
+    location = "China"
+    site_description = ""
+    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/yeluojun)."
+    avatar = "css/images/avatar.png"
+    # Enter your email address to display your Gravatar icon in the profile. If not set the theme
+    # will fallback to the avatar.
+    gravatar = "635143970@qq.com"
+    logo = "css/images/logo.png"
+    disable_mathjax = false # set to true to disable MathJax
+
+    # define which types of pages should be shown. By default the type with the most regular pages
+    mainSections = ["post"]
+
+    # Format dates with Go's time formatting
+    date_format = "2006-01-02"
+
+    # Add custom assets with their paths relative to the static folder
+	custom_css = []
+	custom_js  = []
+
+# Create custom menu entries by defining a label and a link for
+# them. Since you can also link posts, you've the option the
+# place the links before or after them.
+#
+# E.g.: "Home" appears before all linked posts in the menu
+# and "Tags" / "Categories" after them.
+[[params.menu]]
+    before = true
+    label  = "主页"
+    link   = "/"
+
+[[params.menu]]
+    before = false
+    label  = "标签"
+    link   = "tags/"
+
+[[params.menu]]
+    before = false
+    label  = "分类"
+    link   = "categories/"
+
+# Enter a link for the follow button on the left
+[params.profile]
+    follow_button = "https://github.com/yeluojun"
+
+
+[social]
+# Add your social network accounts to the profile section on the left
+# by entering your username. The links to your account will be
+# created automatically.
+    github          = "yeluojun"
+    gitlab          = ""
+    bitbucket       = ""
+    jsfiddle        = ""
+    codepen         = ""
+    foursquare      = ""
+    dribbble        = ""
+    deviantart      = ""
+    behance         = ""
+    flickr          = ""
+    instagram       = ""
+    youtube         = ""
+    vimeo           = ""
+    vine            = ""
+    medium          = ""
+    wordpress       = ""
+    tumblr          = ""
+    xing            = ""
+    linkedin        = ""
+    slideshare      = ""
+    stackoverflow   = ""
+    reddit          = ""
+    pinterest       = ""
+    googleplus      = ""
+    facebook        = ""
+    facebook_admin  = ""
+    twitter_domain  = ""
+    twitter         = ""
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    recent_articles = false
+    categories = true
+    tags = true
+    tag_cloud = true

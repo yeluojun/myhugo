@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Jun Write</title>
+    <link>/tags/git/</link>
+    <description>Recent content in Git on Jun Write</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
+    <lastBuildDate>Tue, 04 Jul 2017 14:25:11 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>工作中用到的git命令记录</title>
+      <link>/git/%E5%B7%A5%E4%BD%9C%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84git%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Tue, 04 Jul 2017 14:25:11 +0800</pubDate>
+      
+      <guid>/git/%E5%B7%A5%E4%BD%9C%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84git%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

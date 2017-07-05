@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rubies on Jun Write</title>
+    <link>/ruby/</link>
+    <description>Recent content in Rubies on Jun Write</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
+    <lastBuildDate>Tue, 04 Jul 2017 14:24:31 +0800</lastBuildDate>
+    
+	<atom:link href="/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ruby多线程编程记录</title>
+      <link>/ruby/ruby%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Tue, 04 Jul 2017 14:24:31 +0800</pubDate>
+      
+      <guid>/ruby/ruby%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>如何编写rake任务的简单记录</title>
+      <link>/ruby/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99rake%E4%BB%BB%E5%8A%A1%E7%9A%84%E7%AE%80%E5%8D%95%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Tue, 04 Jul 2017 14:20:42 +0800</pubDate>
+      
+      <guid>/ruby/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99rake%E4%BB%BB%E5%8A%A1%E7%9A%84%E7%AE%80%E5%8D%95%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby代理服务器</title>
+      <link>/ruby/ruby%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <pubDate>Mon, 03 Jul 2017 23:43:16 +0800</pubDate>
+      
+      <guid>/ruby/ruby%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

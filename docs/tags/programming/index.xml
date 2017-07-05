@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Jun Write</title>
+    <link>/tags/programming/</link>
+    <description>Recent content in Programming on Jun Write</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
+    <lastBuildDate>Mon, 03 Jul 2017 23:43:16 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ruby代理服务器</title>
+      <link>/ruby/ruby%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <pubDate>Mon, 03 Jul 2017 23:43:16 +0800</pubDate>
+      
+      <guid>/ruby/ruby%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -30,7 +30,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-07-05T14:26:00&#43;08:00"/>
+<meta property="og:updated_time" content="2017-07-05T23:16:55&#43;08:00"/>
 
 
 
@@ -152,12 +152,12 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        2
+        3
         <span>Posts</span>
       </div>
       <div class="article-info-block">
         
-          4
+          5
         
         <span>
             Tags
@@ -233,6 +233,133 @@
     <section id="main">
     
     
+
+<article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+        </a>
+
+        <header class="article-header">
+    <a href="https://yeluojun.github.io/myhugo/2017/07/05/%E5%AE%9A%E6%A0%BC%E5%8A%A8%E7%94%BB%E9%83%A8%E5%88%86%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3/">
+    <h1 class="article-title" itemprop="name">
+        定格动画部分接口文档
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2017-07-05 23:16:55 &#43;0800 CST" itemprop="datePublished">2017-07-05</time>
+            &middot;
+            215
+            words
+            &middot;
+            2
+            minute read
+        </div>
+        
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/%E6%8E%A5%E5%8F%A3">接口</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>
+                定格动画部分接口 一. 获取音频资源 方式一 url:
+http://39.108.158.131/api/v1/audios
+参数：
+   参数 是否必须 默认值 解释     all 否 0 1显示全部，非1则不是   page 否 1 第几页   per 否 20 每页数量    返回值（成功）：
+{ &quot;Code&quot;: 200, &quot;Msg&quot;: &quot;成功&quot;, &quot;Data&quot; :{ &quot;Data&quot;:[ { &quot;Id&quot;:3, &quot;Title&quot;:&quot;慕容毓像.mp3&quot;, &quot;Url&quot;:&quot;http://oqdy6yqkp.bkt.clouddn.com/lo0fp8H8cDG0P7bncvDDjtdYKrIB&quot;, &quot;SortBy&quot;:3, &quot;CreateAt&quot;:&quot;2017-06-27T17:48:35+08:00&quot;, &quot;UpdateAt&quot;:&quot;2017-06-27T17:48:35+08:00&quot;, &quot;Version&quot;:1, &quot;Size&quot;:&quot;6632453&quot; }, { &quot;Id&quot;:1, &quot;Title&quot;:&quot;测试音频素材&quot;, &quot;Url&quot;:&quot;http://oqdy6yqkp.bkt.clouddn.com/lo0fp8H8cDG0P7bncvDDjtdYKrIB&quot;, &quot;SortBy&quot;:2,&quot;CreateAt&quot;:&quot;2017-06-27T14:42:50+08:00&quot;, &quot;UpdateAt&quot;:&quot;2017-06-27T14:42:50+08:00&quot;, &quot;Version&quot;:1, &quot;Size&quot;:&quot;6632453&quot; }, { &quot;Id&quot;:2, &quot;Title&quot;:&quot;测试音频2&quot;, &quot;Url&quot;:&quot;http://oqdy6yqkp.bkt.clouddn.com/luoSv3OHto8gDQJxtde86YRBwOsF&quot;, &quot;SortBy&quot;:1, &quot;CreateAt&quot;:&quot;2017-06-27T14:46:48+08:00&quot;, &quot;UpdateAt&quot;:&quot;2017-06-27T14:46:48+08:00&quot;, &quot;Version&quot;:1, &quot;Size&quot;:&quot;6992130&quot; } ], &quot;Counts&quot;:3 } }  返回值：（失败）， Code 不为 200的均为失败，比如：
+            </p>
+            <p class="article-more-link">
+                <a href="https://yeluojun.github.io/myhugo/2017/07/05/%E5%AE%9A%E6%A0%BC%E5%8A%A8%E7%94%BB%E9%83%A8%E5%88%86%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3/">
+                    Read more
+                </a>
+            </p>
+        </div>
+        <footer class="article-footer">
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+</article>
 
 <article class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
@@ -604,6 +731,14 @@ package rctl import ( &quot;fmt&quot; &quot;sync&quot; &quot;testing&quot; ) fun
                 <span class="category-list-count">1</span>
             </li>
             
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/%E6%8E%A5%E5%8F%A3">
+                    接口
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
         </ul>
     </div>
 </div>
@@ -631,6 +766,9 @@ package rctl import ( &quot;fmt&quot; &quot;sync&quot; &quot;testing&quot; ) fun
         
         
         <a href="https://yeluojun.github.io/myhugo/tags/waitgroup" style="font-size: 12px;">waitgroup</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/%E6%8E%A5%E5%8F%A3" style="font-size: 12px;">接口</a>
         
     </div>
 </div>

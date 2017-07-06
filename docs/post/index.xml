@@ -50,6 +50,23 @@
     </item>
     
     <item>
+      <title>Get Started With Ruby Rake</title>
+      <link>https://yeluojun.github.io/myhugo/2017/06/06/get-started-with-ruby-rake/</link>
+      <pubDate>Tue, 06 Jun 2017 15:06:35 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/2017/06/06/get-started-with-ruby-rake/</guid>
+      <description>一. 创建任务 准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹， 然后在rake文件夹里面创建一个叫hello.rake文件
+Rakefile:
+import &amp;quot;tasks/hello.rake&amp;quot; desc &amp;quot;example_one&amp;quot; task :example_one do puts &#39;this is task one&#39; end  hello.rake:
+task :example_two do puts &#39;this is task two&#39; end  在Ｒakefile所在的目录来执行这些任务：
+$ rake example_one $ rake example_two  输出的的结果是：
+&amp;ldquo;this is task one&amp;rdquo;
+&amp;ldquo;this is task two&amp;rdquo;
+ 为什么Rakefile引入tasks/hello.rake要用import不用require呢？ 这是因为，&amp;rdquo;require&amp;rdquo; 只能识别&amp;rdquo;.rb&amp;rdquo;结尾的文件，找不到.rake结尾的文件，会报“no such file to load”异常。 当然，我们也可以直接在Rakefile文件上写自己的任务。
+ 二. 创建有依赖关系的任务 task :base_example do puts &#39;this is base example&#39; end task other_example: :base_example do puts &#39;this is other example&#39; end task another_example: :other_example do puts &#39;this is another example&#39; end  我们来跑一下：</description>
+    </item>
+    
+    <item>
       <title>Markdown Cheat Sheet</title>
       <link>https://yeluojun.github.io/myhugo/2017/05/20/markdown-cheat-sheet/</link>
       <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>

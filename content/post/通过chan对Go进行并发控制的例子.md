@@ -9,9 +9,11 @@ categories: ["golang"]
 ## 使用chan来控制并发
 直接代码：
 
+<!--more-->
+
 ctl.go
 
-```Go
+```
 package rctl
 import "sync"
 type Rctl struct {
@@ -31,7 +33,7 @@ func (r *Rctl) FuncCtl(f func(int), i int) {
 
 ctl_test.go
 
-```Go
+```
 package rctl
 import (
 	"fmt"

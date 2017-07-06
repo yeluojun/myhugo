@@ -18,11 +18,9 @@
       <pubDate>Wed, 05 Jul 2017 23:16:55 +0800</pubDate>
       
       <guid>https://yeluojun.github.io/myhugo/2017/07/05/%E5%AE%9A%E6%A0%BC%E5%8A%A8%E7%94%BB%E9%83%A8%E5%88%86%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3/</guid>
-      <description>定格动画部分接口 一. 获取音频资源 方式一 url:
-http://39.108.158.131/api/v1/audios
-参数：
-   参数 是否必须 默认值 解释     all 否 0 1显示全部，非1则不是   page 否 1 第几页   per 否 20 每页数量    返回值（成功）：
-{ &amp;quot;Code&amp;quot;: 200, &amp;quot;Msg&amp;quot;: &amp;quot;成功&amp;quot;, &amp;quot;Data&amp;quot; :{ &amp;quot;Data&amp;quot;:[ { &amp;quot;Id&amp;quot;:3, &amp;quot;Title&amp;quot;:&amp;quot;慕容毓像.mp3&amp;quot;, &amp;quot;Url&amp;quot;:&amp;quot;http://oqdy6yqkp.bkt.clouddn.com/lo0fp8H8cDG0P7bncvDDjtdYKrIB&amp;quot;, &amp;quot;SortBy&amp;quot;:3, &amp;quot;CreateAt&amp;quot;:&amp;quot;2017-06-27T17:48:35+08:00&amp;quot;, &amp;quot;UpdateAt&amp;quot;:&amp;quot;2017-06-27T17:48:35+08:00&amp;quot;, &amp;quot;Version&amp;quot;:1, &amp;quot;Size&amp;quot;:&amp;quot;6632453&amp;quot; }, { &amp;quot;Id&amp;quot;:1, &amp;quot;Title&amp;quot;:&amp;quot;测试音频素材&amp;quot;, &amp;quot;Url&amp;quot;:&amp;quot;http://oqdy6yqkp.bkt.clouddn.com/lo0fp8H8cDG0P7bncvDDjtdYKrIB&amp;quot;, &amp;quot;SortBy&amp;quot;:2,&amp;quot;CreateAt&amp;quot;:&amp;quot;2017-06-27T14:42:50+08:00&amp;quot;, &amp;quot;UpdateAt&amp;quot;:&amp;quot;2017-06-27T14:42:50+08:00&amp;quot;, &amp;quot;Version&amp;quot;:1, &amp;quot;Size&amp;quot;:&amp;quot;6632453&amp;quot; }, { &amp;quot;Id&amp;quot;:2, &amp;quot;Title&amp;quot;:&amp;quot;测试音频2&amp;quot;, &amp;quot;Url&amp;quot;:&amp;quot;http://oqdy6yqkp.bkt.clouddn.com/luoSv3OHto8gDQJxtde86YRBwOsF&amp;quot;, &amp;quot;SortBy&amp;quot;:1, &amp;quot;CreateAt&amp;quot;:&amp;quot;2017-06-27T14:46:48+08:00&amp;quot;, &amp;quot;UpdateAt&amp;quot;:&amp;quot;2017-06-27T14:46:48+08:00&amp;quot;, &amp;quot;Version&amp;quot;:1, &amp;quot;Size&amp;quot;:&amp;quot;6992130&amp;quot; } ], &amp;quot;Counts&amp;quot;:3 } }  返回值：（失败）， Code 不为 200的均为失败，比如：</description>
+      <description>&lt;h2 id=&#34;定格动画部分接口&#34;&gt;定格动画部分接口&lt;/h2&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -31,10 +29,24 @@ http://39.108.158.131/api/v1/audios
       <pubDate>Wed, 05 Jul 2017 14:26:00 +0800</pubDate>
       
       <guid>https://yeluojun.github.io/myhugo/2017/07/05/%E9%80%9A%E8%BF%87chanel%E5%AF%B9go%E8%BF%9B%E8%A1%8C%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6/</guid>
-      <description>使用chan来控制并发 直接代码：
-ctl.go
-package rctl import &amp;quot;sync&amp;quot; type Rctl struct { Queue chan int Wg *sync.WaitGroup } func (r *Rctl) FuncCtl(f func(int), i int) { // 并发操作 go func() { r.Queue &amp;lt;- 1 f(i) &amp;lt;-r.Queue r.Wg.Done() }() }  ctl_test.go
-package rctl import ( &amp;quot;fmt&amp;quot; &amp;quot;sync&amp;quot; &amp;quot;testing&amp;quot; ) func Test_FuncCtl(t *testing.T) { rt := Rctl{ Queue: make(chan int, 100), // 缓冲区为100 Wg: new(sync.WaitGroup), } rt.Wg.Add(400) for i := 100; i &amp;lt; 500; i++ { rt.</description>
+      <description>&lt;h2 id=&#34;使用chan来控制并发&#34;&gt;使用chan来控制并发&lt;/h2&gt;
+
+&lt;p&gt;直接代码：&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Supervisoran安装使用记录及遇到的坑</title>
+      <link>https://yeluojun.github.io/myhugo/2017/06/25/supervisoran%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95%E5%8F%8A%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/</link>
+      <pubDate>Sun, 25 Jun 2017 11:13:44 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/2017/06/25/supervisoran%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95%E5%8F%8A%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/</guid>
+      <description>&lt;p&gt;初用Supervisor的记录：&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Supervisor是一个强大的进程管理工具，我只用了其中的一点皮毛功能&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

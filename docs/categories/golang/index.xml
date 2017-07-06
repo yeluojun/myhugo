@@ -18,10 +18,11 @@
       <pubDate>Wed, 05 Jul 2017 14:26:00 +0800</pubDate>
       
       <guid>https://yeluojun.github.io/myhugo/2017/07/05/%E9%80%9A%E8%BF%87chanel%E5%AF%B9go%E8%BF%9B%E8%A1%8C%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6/</guid>
-      <description>使用chan来控制并发 直接代码：
-ctl.go
-package rctl import &amp;quot;sync&amp;quot; type Rctl struct { Queue chan int Wg *sync.WaitGroup } func (r *Rctl) FuncCtl(f func(int), i int) { // 并发操作 go func() { r.Queue &amp;lt;- 1 f(i) &amp;lt;-r.Queue r.Wg.Done() }() }  ctl_test.go
-package rctl import ( &amp;quot;fmt&amp;quot; &amp;quot;sync&amp;quot; &amp;quot;testing&amp;quot; ) func Test_FuncCtl(t *testing.T) { rt := Rctl{ Queue: make(chan int, 100), // 缓冲区为100 Wg: new(sync.WaitGroup), } rt.Wg.Add(400) for i := 100; i &amp;lt; 500; i++ { rt.</description>
+      <description>&lt;h2 id=&#34;使用chan来控制并发&#34;&gt;使用chan来控制并发&lt;/h2&gt;
+
+&lt;p&gt;直接代码：&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

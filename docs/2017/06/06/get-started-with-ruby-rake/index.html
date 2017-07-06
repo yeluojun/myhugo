@@ -21,15 +21,12 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
     <meta property="og:title" content="Get Started With Ruby Rake" />
-<meta property="og:description" content="一. 创建任务 准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹， 然后在rake文件夹里面创建一个叫hello.rake文件
-Rakefile:
-import &quot;tasks/hello.rake&quot; desc &quot;example_one&quot; task :example_one do puts &#39;this is task one&#39; end  hello.rake:
-task :example_two do puts &#39;this is task two&#39; end  在Ｒakefile所在的目录来执行这些任务：
-$ rake example_one $ rake example_two  输出的的结果是：
-&ldquo;this is task one&rdquo;
-&ldquo;this is task two&rdquo;
- 为什么Rakefile引入tasks/hello.rake要用import不用require呢？ 这是因为，&rdquo;require&rdquo; 只能识别&rdquo;.rb&rdquo;结尾的文件，找不到.rake结尾的文件，会报“no such file to load”异常。 当然，我们也可以直接在Rakefile文件上写自己的任务。
- 二. 创建有依赖关系的任务 task :base_example do puts &#39;this is base example&#39; end task other_example: :base_example do puts &#39;this is other example&#39; end task another_example: :other_example do puts &#39;this is another example&#39; end  我们来跑一下：" />
+<meta property="og:description" content="一. 创建任务
+
+准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
+然后在rake文件夹里面创建一个叫hello.rake文件
+
+" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yeluojun.github.io/myhugo/2017/06/06/get-started-with-ruby-rake/" />
 
@@ -51,15 +48,12 @@ $ rake example_one $ rake example_two  输出的的结果是：
     
     
 <meta itemprop="name" content="Get Started With Ruby Rake">
-<meta itemprop="description" content="一. 创建任务 准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹， 然后在rake文件夹里面创建一个叫hello.rake文件
-Rakefile:
-import &quot;tasks/hello.rake&quot; desc &quot;example_one&quot; task :example_one do puts &#39;this is task one&#39; end  hello.rake:
-task :example_two do puts &#39;this is task two&#39; end  在Ｒakefile所在的目录来执行这些任务：
-$ rake example_one $ rake example_two  输出的的结果是：
-&ldquo;this is task one&rdquo;
-&ldquo;this is task two&rdquo;
- 为什么Rakefile引入tasks/hello.rake要用import不用require呢？ 这是因为，&rdquo;require&rdquo; 只能识别&rdquo;.rb&rdquo;结尾的文件，找不到.rake结尾的文件，会报“no such file to load”异常。 当然，我们也可以直接在Rakefile文件上写自己的任务。
- 二. 创建有依赖关系的任务 task :base_example do puts &#39;this is base example&#39; end task other_example: :base_example do puts &#39;this is other example&#39; end task another_example: :other_example do puts &#39;this is another example&#39; end  我们来跑一下：">
+<meta itemprop="description" content="一. 创建任务
+
+准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
+然后在rake文件夹里面创建一个叫hello.rake文件
+
+">
 
 
 <meta itemprop="dateModified" content="2017-06-06T15:06:35&#43;08:00" />
@@ -77,15 +71,12 @@ $ rake example_one $ rake example_two  输出的的结果是：
 
 <meta name="twitter:text:title" content="Get Started With Ruby Rake"/>
 <meta name="twitter:title" content="Get Started With Ruby Rake"/>
-<meta name="twitter:description" content="一. 创建任务 准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹， 然后在rake文件夹里面创建一个叫hello.rake文件
-Rakefile:
-import &quot;tasks/hello.rake&quot; desc &quot;example_one&quot; task :example_one do puts &#39;this is task one&#39; end  hello.rake:
-task :example_two do puts &#39;this is task two&#39; end  在Ｒakefile所在的目录来执行这些任务：
-$ rake example_one $ rake example_two  输出的的结果是：
-&ldquo;this is task one&rdquo;
-&ldquo;this is task two&rdquo;
- 为什么Rakefile引入tasks/hello.rake要用import不用require呢？ 这是因为，&rdquo;require&rdquo; 只能识别&rdquo;.rb&rdquo;结尾的文件，找不到.rake结尾的文件，会报“no such file to load”异常。 当然，我们也可以直接在Rakefile文件上写自己的任务。
- 二. 创建有依赖关系的任务 task :base_example do puts &#39;this is base example&#39; end task other_example: :base_example do puts &#39;this is other example&#39; end task another_example: :other_example do puts &#39;this is another example&#39; end  我们来跑一下："/>
+<meta name="twitter:description" content="一. 创建任务
+
+准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
+然后在rake文件夹里面创建一个叫hello.rake文件
+
+"/>
 
 
     
@@ -331,14 +322,12 @@ $ rake example_one $ rake example_two  输出的的结果是：
 </header>
 
         <div class="article-entry" itemprop="articleBody">
-            
-
-<h2 id="一-创建任务">一. 创建任务</h2>
+            <h2 id="一-创建任务">一. 创建任务</h2>
 
 <p>准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
 然后在rake文件夹里面创建一个叫hello.rake文件</p>
 
-<!-- more -->
+<p></p>
 
 <p>Rakefile:</p>
 
@@ -495,7 +484,6 @@ $rake task_one RAILS_ENV = production  # 用生产环境跑task
 </code></pre>
 
 <p><strong>注意: rake 文件应放在 lib/tasks目录，如 lib/tasks/one.rake</strong></p>
-
         </div>
         <footer class="article-footer">
     <script>

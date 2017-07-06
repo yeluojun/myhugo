@@ -303,15 +303,12 @@
 
                     <div class="article-entry" itemprop="articleBody">
                         <p>
-                            一. 创建任务 准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹， 然后在rake文件夹里面创建一个叫hello.rake文件
-Rakefile:
-import &quot;tasks/hello.rake&quot; desc &quot;example_one&quot; task :example_one do puts 'this is task one' end  hello.rake:
-task :example_two do puts 'this is task two' end  在Ｒakefile所在的目录来执行这些任务：
-$ rake example_one $ rake example_two  输出的的结果是：
-&ldquo;this is task one&rdquo;
-&ldquo;this is task two&rdquo;
- 为什么Rakefile引入tasks/hello.rake要用import不用require呢？ 这是因为，&rdquo;require&rdquo; 只能识别&rdquo;.rb&rdquo;结尾的文件，找不到.rake结尾的文件，会报“no such file to load”异常。 当然，我们也可以直接在Rakefile文件上写自己的任务。
- 二. 创建有依赖关系的任务 task :base_example do puts 'this is base example' end task other_example: :base_example do puts 'this is other example' end task another_example: :other_example do puts 'this is another example' end  我们来跑一下：
+                            <h2 id="一-创建任务">一. 创建任务</h2>
+
+<p>准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
+然后在rake文件夹里面创建一个叫hello.rake文件</p>
+
+<p></p>
                         </p>
                         <p class="article-more-link">
                             <a href="https://yeluojun.github.io/myhugo/2017/06/06/get-started-with-ruby-rake/">

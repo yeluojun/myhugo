@@ -10,7 +10,8 @@ categories: ["Ruby"]
 准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
 然后在rake文件夹里面创建一个叫hello.rake文件
 
-<!-- more -->
+<!--more-->
+
 Rakefile:
 
 ```

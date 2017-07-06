@@ -44,25 +44,25 @@
   </url>
   
   <url>
-    <loc>https://yeluojun.github.io/myhugo/categories/golang/</loc>
-    <lastmod>2017-07-05T14:26:00+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://yeluojun.github.io/myhugo/tags/golang/</loc>
     <lastmod>2017-07-05T14:26:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yeluojun.github.io/myhugo/categories/markdown/</loc>
-    <lastmod>2017-05-20T12:10:51+02:00</lastmod>
+    <loc>https://yeluojun.github.io/myhugo/categories/golang/</loc>
+    <lastmod>2017-07-05T14:26:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yeluojun.github.io/myhugo/tags/markdown/</loc>
+    <lastmod>2017-05-20T12:10:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yeluojun.github.io/myhugo/categories/markdown/</loc>
     <lastmod>2017-05-20T12:10:51+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -80,13 +80,13 @@
   </url>
   
   <url>
-    <loc>https://yeluojun.github.io/myhugo/categories/ruby/</loc>
+    <loc>https://yeluojun.github.io/myhugo/tags/ruby/</loc>
     <lastmod>2017-06-06T15:06:35+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yeluojun.github.io/myhugo/tags/ruby/</loc>
+    <loc>https://yeluojun.github.io/myhugo/categories/ruby/</loc>
     <lastmod>2017-06-06T15:06:35+08:00</lastmod>
     <priority>0</priority>
   </url>

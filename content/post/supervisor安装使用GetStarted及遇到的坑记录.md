@@ -1,5 +1,5 @@
 ---
-title: "Supervisoran安装使用记录及遇到的坑"
+title: "Supervisor安装使用记录及遇到的坑"
 date: 2017-06-25T11:13:44+08:00
 tags: ["supervisor", "运维"]
 ---

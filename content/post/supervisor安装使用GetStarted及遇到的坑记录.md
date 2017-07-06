@@ -11,8 +11,24 @@ tags: ["supervisor", "运维"]
 <!--more-->
 
 ## 一.安装
->安装的方式有两种：一种是apt-get install supervisor(Ubuntu),另一种是用pip安装 pip install supervisor，
-我用的方式一安装。工具分为两个部分 第一个是：supervisord 可以理解为服务端， 第二个第一个是：supervisorctl 可以理解为客户端
+__安装方式有两种（这里采用第一种方式安装__
+
+
+第一种：
+apt-get install supervisor (Ubuntu下)
+
+第二种是用pip安装：
+pip install supervisor
+
+
+__工具分为两个部分__
+
+第一个是：
+supervisord 可以理解为服务端，
+
+
+第二个是：
+supervisorctl   可以理解为客户端
 
 ## 二.编写配置文件
 创建了一个文件: /etc/supervisor/conf.d/dg.conf,内容如下：

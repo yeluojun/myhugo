@@ -169,3 +169,6 @@ $rake task_one RAILS_ENV = production  # 用生产环境跑task
 ```
 
 __注意: rake 文件应放在 lib/tasks目录，如 lib/tasks/one.rake__
+
+
+<!--more-->

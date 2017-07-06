@@ -21,7 +21,10 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
     <meta property="og:title" content="工作中使用到的git的命令集合-持续更新" />
-<meta property="og:description" content=" 工作中用到的git命令集合 设置全局用户名和邮箱 git config --global user.name &quot;yeluojun&quot; git config --global user.email &quot;635143970@qq.com&quot; git config -l # 查看所有配置  git clone -b &lt;branch&gt; &lt;remote_repo&gt; # clone 特定分支 git add &lt;file/dir&gt; # 将文件提交到本地暂存区 git add . # 将所有有修改过的文件（包括添加，删除，修改）提交到本地暂存区 git rm &lt;file/dir&gt; # 从版本库中删除文件 git rm &lt;file/dir&gt; --cached # 从版本库中删除文件，但不删除文件 git show # 查看最近一次提交的内容 git status # 查看工作区状态  " />
+<meta property="og:description" content="工作中用到的git命令集合  配置部分：
+git config --global user.name &quot;yeluojun&quot; ; 设置全局用户名 git config --global user.email &quot;635143970@qq.com&quot; ; 设置全局邮箱 git config -l ; 查看所有配置  clone 部分：
+git clone &lt;路径&gt; ； clone项目 git clone -b &lt;分支&gt; &lt;路径&gt; ; clone特定分支    git add and rm :
+git add &lt;file/dir&gt; ; 将文件(夹)提交到本地暂存区 git add . ; 将所有有修改过的文件（包括添加，删除，修改）提交到本地暂存区  git rm &lt;file/dir&gt; ; 从版本库中删除文件 git rm &lt;file/dir&gt; --cached ; 从版本库中删除文件，但不删除文件  git show ; 查看最近一次提交的内容 git status ; 查看工作区状态  checkout部分：" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yeluojun.github.io/myhugo/2016/09/01/%E5%B7%A5%E4%BD%9C%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%88%B0%E7%9A%84git%E7%9A%84%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/" />
 
@@ -43,11 +46,14 @@
     
     
 <meta itemprop="name" content="工作中使用到的git的命令集合-持续更新">
-<meta itemprop="description" content=" 工作中用到的git命令集合 设置全局用户名和邮箱 git config --global user.name &quot;yeluojun&quot; git config --global user.email &quot;635143970@qq.com&quot; git config -l # 查看所有配置  git clone -b &lt;branch&gt; &lt;remote_repo&gt; # clone 特定分支 git add &lt;file/dir&gt; # 将文件提交到本地暂存区 git add . # 将所有有修改过的文件（包括添加，删除，修改）提交到本地暂存区 git rm &lt;file/dir&gt; # 从版本库中删除文件 git rm &lt;file/dir&gt; --cached # 从版本库中删除文件，但不删除文件 git show # 查看最近一次提交的内容 git status # 查看工作区状态  ">
+<meta itemprop="description" content="工作中用到的git命令集合  配置部分：
+git config --global user.name &quot;yeluojun&quot; ; 设置全局用户名 git config --global user.email &quot;635143970@qq.com&quot; ; 设置全局邮箱 git config -l ; 查看所有配置  clone 部分：
+git clone &lt;路径&gt; ； clone项目 git clone -b &lt;分支&gt; &lt;路径&gt; ; clone特定分支    git add and rm :
+git add &lt;file/dir&gt; ; 将文件(夹)提交到本地暂存区 git add . ; 将所有有修改过的文件（包括添加，删除，修改）提交到本地暂存区  git rm &lt;file/dir&gt; ; 从版本库中删除文件 git rm &lt;file/dir&gt; --cached ; 从版本库中删除文件，但不删除文件  git show ; 查看最近一次提交的内容 git status ; 查看工作区状态  checkout部分：">
 
 
 <meta itemprop="dateModified" content="2016-09-01T19:21:33&#43;08:00" />
-<meta itemprop="wordCount" content="54">
+<meta itemprop="wordCount" content="223">
 
 
 
@@ -61,7 +67,10 @@
 
 <meta name="twitter:text:title" content="工作中使用到的git的命令集合-持续更新"/>
 <meta name="twitter:title" content="工作中使用到的git的命令集合-持续更新"/>
-<meta name="twitter:description" content=" 工作中用到的git命令集合 设置全局用户名和邮箱 git config --global user.name &quot;yeluojun&quot; git config --global user.email &quot;635143970@qq.com&quot; git config -l # 查看所有配置  git clone -b &lt;branch&gt; &lt;remote_repo&gt; # clone 特定分支 git add &lt;file/dir&gt; # 将文件提交到本地暂存区 git add . # 将所有有修改过的文件（包括添加，删除，修改）提交到本地暂存区 git rm &lt;file/dir&gt; # 从版本库中删除文件 git rm &lt;file/dir&gt; --cached # 从版本库中删除文件，但不删除文件 git show # 查看最近一次提交的内容 git status # 查看工作区状态  "/>
+<meta name="twitter:description" content="工作中用到的git命令集合  配置部分：
+git config --global user.name &quot;yeluojun&quot; ; 设置全局用户名 git config --global user.email &quot;635143970@qq.com&quot; ; 设置全局邮箱 git config -l ; 查看所有配置  clone 部分：
+git clone &lt;路径&gt; ； clone项目 git clone -b &lt;分支&gt; &lt;路径&gt; ; clone特定分支    git add and rm :
+git add &lt;file/dir&gt; ; 将文件(夹)提交到本地暂存区 git add . ; 将所有有修改过的文件（包括添加，删除，修改）提交到本地暂存区  git rm &lt;file/dir&gt; ; 从版本库中删除文件 git rm &lt;file/dir&gt; --cached ; 从版本库中删除文件，但不删除文件  git show ; 查看最近一次提交的内容 git status ; 查看工作区状态  checkout部分："/>
 
 
     
@@ -265,10 +274,10 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2016-09-01 19:21:33 &#43;0800 CST" itemprop="datePublished">2016-09-01</time>
             &middot;
-            54
+            223
             words
             &middot;
-            1
+            2
             minute read
         </div>
         
@@ -307,27 +316,125 @@
 
 <h2 id="工作中用到的git命令集合">工作中用到的git命令集合</h2>
 
-<h3 id="设置全局用户名和邮箱">设置全局用户名和邮箱</h3>
+<blockquote>
+<p>配置部分：</p>
 
-<pre><code class="language-git">git config --global user.name &quot;yeluojun&quot;
-git config --global user.email &quot;635143970@qq.com&quot;  
-git config -l  # 查看所有配置
+<pre><code>git config --global user.name &quot;yeluojun&quot; ; 设置全局用户名
+git config --global user.email &quot;635143970@qq.com&quot; ; 设置全局邮箱
+git config -l  ; 查看所有配置
 </code></pre>
 
-<pre><code class="language-git">git clone -b &lt;branch&gt; &lt;remote_repo&gt; # clone 特定分支
+<hr />
 
-git add &lt;file/dir&gt; # 将文件提交到本地暂存区
-git add . # 将所有有修改过的文件（包括添加，删除，修改）提交到本地暂存区
+<p>clone 部分：</p>
 
-git rm &lt;file/dir&gt; # 从版本库中删除文件
-git rm &lt;file/dir&gt; --cached # 从版本库中删除文件，但不删除文件
-
-
-git show  # 查看最近一次提交的内容
-
-git status # 查看工作区状态
-
+<pre><code>git clone &lt;路径&gt; ； clone项目
+git clone -b &lt;分支&gt; &lt;路径&gt; ; clone特定分支
 </code></pre>
+</blockquote>
+
+<hr />
+
+<blockquote>
+<p>git add and rm :</p>
+
+<pre><code>git add &lt;file/dir&gt; ; 将文件(夹)提交到本地暂存区
+git add . ; 将所有有修改过的文件（包括添加，删除，修改）提交到本地暂存区
+</code></pre>
+
+<hr />
+
+<pre><code>git rm &lt;file/dir&gt;  ; 从版本库中删除文件   
+git rm &lt;file/dir&gt; --cached ; 从版本库中删除文件，但不删除文件
+</code></pre>
+
+<hr />
+
+<pre><code>git show  ; 查看最近一次提交的内容  
+git status ; 查看工作区状态  
+</code></pre>
+
+<hr />
+
+<p>checkout部分：</p>
+
+<pre><code>git checkout branch ; 切换分支  
+git checkout -b branch ; 新建一个分支并切换到该分区  
+git checkout -- &lt;文件&gt; ; 撤销对某个文件的修改  
+git checkout -- . ; 撤销所有未提交的修改
+</code></pre>
+
+<hr />
+
+<p>分支管理：</p>
+
+<pre><code>git branch ; 查看所有分支  
+git branch -a ; 查看所有分支(包括远程分支)  
+git branch &lt;分支名&gt; ; 新建一个分支   
+git branch -d &lt;分支名&gt; ; 删除分支（未合并该分支到当前分支会报错）  
+git branch -D &lt;分支名&gt; ; 强制删除分支(无法删除当前所在的分支)
+</code></pre>
+
+<hr />
+
+<p>拉取/提交更新：</p>
+
+<pre><code>git pull origin &lt;分支名&gt; ; 拉取远程更新  
+git push origin &lt;分支名&gt; ; 提交到远程
+git push origin :&lt;分支名&gt; ; 删除远程分支
+</code></pre>
+
+<hr />
+
+<p>版本回滚：</p>
+
+<pre><code>git log ; 查看commit信息
+git reset  --hard ; 恢复最近一次提交过的状态
+git reset  --hard  e96a05d37b9c8d0d02aec488ed9ec629c18b2396 ; 回复某个commit的版本
+</code></pre>
+
+<hr />
+
+<p>远程仓库管理:</p>
+
+<pre><code>git remote ; 列出所有的远程仓库
+git remote -v ；列出所有远程仓库及其地址
+git remote add origin &lt;地址&gt; ; 添加远程仓库地址， origin为仓库名称，可以是其他名称比如 &quot;a&quot;, &quot;b&quot; ...,
+git remote rm origin ; 删除名为“origin” 的远程仓库
+git remote set-url origin &lt;地址&gt; ； 修改名为“origin”的远程仓库的地址
+</code></pre>
+
+<hr />
+
+<p>git fetch 相关：</p>
+
+<pre><code>git pull origin dev 相当于：
+git fetch origin dev
+git merge origin/dev
+
+git fetch -p ; 删除远程已经删除但本地还存在的分支，并拉取所有远程分支
+
+
+拉去其它分支的更新，合并到自己的分支：
+git fetch origin &lt;分支名&gt;
+git rebase origin/&lt;分支名&gt;
+</code></pre>
+
+<hr />
+
+<p>合并分支：</p>
+
+<pre><code>git merge &lt;分支名&gt;; 合并分支
+</code></pre>
+</blockquote>
+
+<hr />
+
+<hr />
+
+<blockquote>
+<p>暂时用过的基本就这些，持续更新ing&hellip;</p>
+</blockquote>
 
         </div>
         <footer class="article-footer">

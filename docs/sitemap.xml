@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>https://yeluojun.github.io/myhugo/2016/09/01/%E5%B7%A5%E4%BD%9C%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%88%B0%E7%9A%84git%E7%9A%84%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2016-09-01T19:21:33+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yeluojun.github.io/myhugo/categories/</loc>
     <priority>0</priority>
   </url>
@@ -40,6 +45,18 @@
   <url>
     <loc>https://yeluojun.github.io/myhugo/tags/chanel/</loc>
     <lastmod>2017-07-05T14:26:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yeluojun.github.io/myhugo/categories/git/</loc>
+    <lastmod>2016-09-01T19:21:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yeluojun.github.io/myhugo/tags/git/</loc>
+    <lastmod>2016-09-01T19:21:33+08:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on 随记</title>
-    <link>https://yeluojun.github.io/myhugo/tags/git/</link>
+    <link>https://yeluojun.github.io/myhugo/categories/git/</link>
     <description>Recent content in Git on 随记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
     <lastBuildDate>Thu, 01 Sep 2016 19:21:33 +0800</lastBuildDate>
     
-	<atom:link href="https://yeluojun.github.io/myhugo/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yeluojun.github.io/myhugo/categories/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

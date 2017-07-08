@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rails on 随记</title>
+    <link>https://yeluojun.github.io/myhugo/tags/rails/</link>
+    <description>Recent content in Rails on 随记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
+    <lastBuildDate>Thu, 29 Dec 2016 12:22:21 +0800</lastBuildDate>
+    
+	<atom:link href="https://yeluojun.github.io/myhugo/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ruby环境搭建记录</title>
+      <link>https://yeluojun.github.io/myhugo/2016/12/29/ruby%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Thu, 29 Dec 2016 12:22:21 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/2016/12/29/ruby%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid>
+      <description>&lt;h2 id=&#34;ruby-on-rails-环境搭建记录-ubuntu-16-04&#34;&gt;Ruby on Rails 环境搭建记录 - Ubuntu 16.04&lt;/h2&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

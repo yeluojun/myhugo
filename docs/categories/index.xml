@@ -47,5 +47,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Shadowsocks</title>
+      <link>https://yeluojun.github.io/myhugo/categories/shadowsocks/</link>
+      <pubDate>Sun, 07 May 2017 12:40:02 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/categories/shadowsocks/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gem on 随记</title>
+    <link>https://yeluojun.github.io/myhugo/tags/gem/</link>
+    <description>Recent content in Gem on 随记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
+    <lastBuildDate>Mon, 01 May 2017 13:07:39 +0800</lastBuildDate>
+    
+	<atom:link href="https://yeluojun.github.io/myhugo/tags/gem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Make Your Own Ruby Gem</title>
+      <link>https://yeluojun.github.io/myhugo/2017/05/01/make-your-own-ruby-gem/</link>
+      <pubDate>Mon, 01 May 2017 13:07:39 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/2017/05/01/make-your-own-ruby-gem/</guid>
+      <description>&lt;h1 id=&#34;创建自己的ruby-gem&#34;&gt;创建自己的Ruby Gem&lt;/h1&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

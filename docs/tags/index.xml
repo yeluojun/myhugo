@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Gem</title>
+      <link>https://yeluojun.github.io/myhugo/tags/gem/</link>
+      <pubDate>Mon, 01 May 2017 13:07:39 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/tags/gem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>https://yeluojun.github.io/myhugo/tags/git/</link>
       <pubDate>Thu, 01 Sep 2016 19:21:33 +0800</pubDate>
@@ -49,6 +58,15 @@
     </item>
     
     <item>
+      <title>Rails</title>
+      <link>https://yeluojun.github.io/myhugo/tags/rails/</link>
+      <pubDate>Thu, 29 Dec 2016 12:22:21 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rake</title>
       <link>https://yeluojun.github.io/myhugo/tags/rake/</link>
       <pubDate>Tue, 06 Jun 2017 15:06:35 +0800</pubDate>
@@ -63,6 +81,15 @@
       <pubDate>Tue, 06 Jun 2017 15:06:35 +0800</pubDate>
       
       <guid>https://yeluojun.github.io/myhugo/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shadowsocks</title>
+      <link>https://yeluojun.github.io/myhugo/tags/shadowsocks/</link>
+      <pubDate>Sun, 07 May 2017 12:40:02 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/tags/shadowsocks/</guid>
       <description></description>
     </item>
     
@@ -90,6 +117,24 @@
       <pubDate>Wed, 05 Jul 2017 23:16:55 +0800</pubDate>
       
       <guid>https://yeluojun.github.io/myhugo/tags/%E6%8E%A5%E5%8F%A3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>环境搭建</title>
+      <link>https://yeluojun.github.io/myhugo/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Thu, 29 Dec 2016 12:22:21 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>翻墙</title>
+      <link>https://yeluojun.github.io/myhugo/tags/%E7%BF%BB%E5%A2%99/</link>
+      <pubDate>Sun, 07 May 2017 12:40:02 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/tags/%E7%BF%BB%E5%A2%99/</guid>
       <description></description>
     </item>
     

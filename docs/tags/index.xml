@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 随记</title>
+    <title>Tags on 笔记</title>
     <link>https://yeluojun.github.io/myhugo/tags/</link>
-    <description>Recent content in Tags on 随记</description>
+    <description>Recent content in Tags on 笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
@@ -49,6 +49,15 @@
     </item>
     
     <item>
+      <title>Http</title>
+      <link>https://yeluojun.github.io/myhugo/tags/http/</link>
+      <pubDate>Sun, 11 Sep 2016 19:21:56 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/tags/http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Markdown</title>
       <link>https://yeluojun.github.io/myhugo/tags/markdown/</link>
       <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
@@ -60,7 +69,7 @@
     <item>
       <title>Rails</title>
       <link>https://yeluojun.github.io/myhugo/tags/rails/</link>
-      <pubDate>Thu, 29 Dec 2016 12:22:21 +0800</pubDate>
+      <pubDate>Wed, 29 Jun 2016 12:22:21 +0800</pubDate>
       
       <guid>https://yeluojun.github.io/myhugo/tags/rails/</guid>
       <description></description>
@@ -69,7 +78,7 @@
     <item>
       <title>Rake</title>
       <link>https://yeluojun.github.io/myhugo/tags/rake/</link>
-      <pubDate>Tue, 06 Jun 2017 15:06:35 +0800</pubDate>
+      <pubDate>Tue, 20 Sep 2016 15:06:35 +0800</pubDate>
       
       <guid>https://yeluojun.github.io/myhugo/tags/rake/</guid>
       <description></description>
@@ -78,7 +87,7 @@
     <item>
       <title>Ruby</title>
       <link>https://yeluojun.github.io/myhugo/tags/ruby/</link>
-      <pubDate>Tue, 06 Jun 2017 15:06:35 +0800</pubDate>
+      <pubDate>Mon, 01 May 2017 13:07:39 +0800</pubDate>
       
       <guid>https://yeluojun.github.io/myhugo/tags/ruby/</guid>
       <description></description>
@@ -112,6 +121,15 @@
     </item>
     
     <item>
+      <title>代理</title>
+      <link>https://yeluojun.github.io/myhugo/tags/%E4%BB%A3%E7%90%86/</link>
+      <pubDate>Sun, 07 May 2017 12:40:02 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/tags/%E4%BB%A3%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>接口</title>
       <link>https://yeluojun.github.io/myhugo/tags/%E6%8E%A5%E5%8F%A3/</link>
       <pubDate>Wed, 05 Jul 2017 23:16:55 +0800</pubDate>
@@ -123,7 +141,7 @@
     <item>
       <title>环境搭建</title>
       <link>https://yeluojun.github.io/myhugo/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
-      <pubDate>Thu, 29 Dec 2016 12:22:21 +0800</pubDate>
+      <pubDate>Wed, 29 Jun 2016 12:22:21 +0800</pubDate>
       
       <guid>https://yeluojun.github.io/myhugo/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
       <description></description>

@@ -1,6 +1,6 @@
 ---
 title: "Get Started With Ruby Rake"
-date: 2017-06-06T15:06:35+08:00
+date: 2016-09-20T15:06:35+08:00
 tags: ["Ruby", "rake"]
 categories: ["Ruby"]
 ---

@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Get Started With Ruby Rake &middot; 笔记</title>
+    <meta name="generator" content="Hugo 0.24.1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Jun">
+    
+      <meta name="description" content="">
+    
+    
+    <link rel="canonical" href="https://yeluojun.github.io/myhugo/2016/09/20/get-started-with-ruby-rake/"/>
+    <link rel="icon" href="https://yeluojun.github.io/myhugo/favicon.ico">
+    <link rel="apple-touch-icon" href="https://yeluojun.github.io/myhugo/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="https://yeluojun.github.io/myhugo/css/style.css">
+    <link rel="stylesheet" href="https://yeluojun.github.io/myhugo/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://yeluojun.github.io/myhugo/css/monokai.css">
+    <link rel="stylesheet" href="https://yeluojun.github.io/myhugo/fancybox/jquery.fancybox.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <meta property="og:title" content="Get Started With Ruby Rake" />
+<meta property="og:description" content="一. 创建任务
+
+准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
+然后在rake文件夹里面创建一个叫hello.rake文件
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yeluojun.github.io/myhugo/2016/09/20/get-started-with-ruby-rake/" />
+
+
+
+<meta property="article:published_time" content="2016-09-20T15:06:35&#43;08:00"/>
+<meta property="article:modified_time" content="2016-09-20T15:06:35&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<meta itemprop="name" content="Get Started With Ruby Rake">
+<meta itemprop="description" content="一. 创建任务
+
+准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
+然后在rake文件夹里面创建一个叫hello.rake文件
+
+">
+
+
+<meta itemprop="dateModified" content="2016-09-20T15:06:35&#43;08:00" />
+<meta itemprop="wordCount" content="287">
+
+
+
+<meta itemprop="keywords" content="git,golang,markdown,ruby,shadowsocks,chanel,gem,git,golang,http,markdown,rails,rake,ruby,shadowsocks,supervisor,waitgroup,代理,接口,环境搭建,翻墙,运维," />
+
+    
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="Get Started With Ruby Rake"/>
+<meta name="twitter:title" content="Get Started With Ruby Rake"/>
+<meta name="twitter:description" content="一. 创建任务
+
+准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
+然后在rake文件夹里面创建一个叫hello.rake文件
+
+"/>
+
+
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+
+<div id="container">
+	<header id="header">
+  <div id="header-main" class="header-inner">
+    <div class="outer">
+      <a href="https://yeluojun.github.io/myhugo/" id="logo">
+          
+          <i class="logo" style="background-image: url('https://yeluojun.github.io/myhugo/css/images/logo.png')"></i>
+          
+          <span class="site-title">笔记</span>
+      </a>
+      <nav id="main-nav">
+          
+          
+          
+          
+          
+
+          
+          <a class="main-nav-link" href="/myhugo/about/">简历</a>
+          
+
+          
+          
+          <a class="main-nav-link" href="https://yeluojun.github.io/myhugo/tags/">标签</a>
+          
+          
+          
+          <a class="main-nav-link" href="https://yeluojun.github.io/myhugo/categories/">分类</a>
+          
+          
+      </nav>
+        <nav id="sub-nav">
+          <div class="profile" id="profile-nav">
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="https://yeluojun.github.io/myhugo/css/images/avatar.png"><i class="fa fa-caret-down"></i></a>
+          </div>
+        </nav>
+    </div>
+  </div>
+  <div id="main-nav-mobile" class="header-sub header-inner">
+    <table class="menu outer">
+      <tbody>
+          <tr>
+          
+          
+          
+          
+          
+
+          
+          <td><a class="main-nav-link" href="/myhugo/about/">简历</a></td>
+          
+
+          
+          
+          <td><a class="main-nav-link" href="https://yeluojun.github.io/myhugo/tags/">标签</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="https://yeluojun.github.io/myhugo/categories/">分类</a></td>
+          
+          
+          <td>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+          <input type="search" name="q" class="search-form-input" placeholder="Search">
+          <input type="hidden" name="sitesearch" value="https://yeluojun.github.io/myhugo/" />
+          </form>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</header>
+
+   	
+   	<div class="outer">
+   	
+    	<aside id="profile">
+  <div class="inner profile-inner">
+    <div class="base-info profile-block">
+      
+      <img id="avatar" src="https://www.gravatar.com/avatar/97a7772d73a3bb36f5a44f1cc9ce9f5d?s=100&d=identicon"/>
+      
+      <h2 id="name">Jun</h2>
+      <h3 id="title">Go - Ruby - developer</h3>
+      <span id="location"><i class="fa fa-map-marker"></i>China</span>
+      
+          <a id="follow" href="https://github.com/yeluojun">
+              Follow
+          </a>
+      
+    </div>
+    <div class="article-info profile-block">
+      <div class="article-info-block">
+        10
+        <span>Posts</span>
+      </div>
+      <div class="article-info-block">
+        
+          17
+        
+        <span>
+            Tags
+        </span>
+      </div>
+    </div>
+    <div class="profile-block social-links">
+      <table>
+        <tr>
+          
+<td><a href="//github.com/yeluojun" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <td><a href="https://yeluojun.github.io/myhugo/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</aside>
+
+    
+
+    <section id="main">
+    
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+
+        <header class="article-header">
+    <a href="https://yeluojun.github.io/myhugo/2016/09/20/get-started-with-ruby-rake/">
+    <h1 class="article-title" itemprop="name">
+        Get Started With Ruby Rake
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2016-09-20 15:06:35 &#43;0800 CST" itemprop="datePublished">2016-09-20</time>
+            &middot;
+            287
+            words
+            &middot;
+            2
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/categories/ruby">Ruby</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/ruby">Ruby</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/rake">rake</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <h2 id="一-创建任务">一. 创建任务</h2>
+
+<p>准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
+然后在rake文件夹里面创建一个叫hello.rake文件</p>
+
+<p></p>
+
+<p>Rakefile:</p>
+
+<pre><code>import &quot;tasks/hello.rake&quot;
+
+desc &quot;example_one&quot;
+task :example_one do
+    puts 'this is task one'
+end
+
+</code></pre>
+
+<p>hello.rake:</p>
+
+<pre><code>task :example_two do
+    puts 'this is task two'
+end
+
+</code></pre>
+
+<p>在Ｒakefile所在的目录来执行这些任务：</p>
+
+<pre><code>$ rake example_one
+$ rake example_two
+
+</code></pre>
+
+<p>输出的的结果是：</p>
+
+<p>&ldquo;this is task one&rdquo;</p>
+
+<p>&ldquo;this is task two&rdquo;</p>
+
+<blockquote>
+<p>为什么Rakefile引入tasks/hello.rake要用import不用require呢？
+这是因为，&rdquo;require&rdquo; 只能识别&rdquo;.rb&rdquo;结尾的文件，找不到.rake结尾的文件，会报“no such file to load”异常。
+当然，我们也可以直接在Rakefile文件上写自己的任务。</p>
+</blockquote>
+
+<h2 id="二-创建有依赖关系的任务">二. 创建有依赖关系的任务</h2>
+
+<pre><code>task :base_example do
+  puts 'this is base example'
+end
+
+task other_example: :base_example do
+  puts 'this is other example'
+end
+
+task another_example: :other_example do
+  puts 'this is another example'
+end
+</code></pre>
+
+<p>我们来跑一下：</p>
+
+<pre><code>$rake base_example
+
+&quot;this is base example&quot;
+
+
+$rake other_example
+
+&quot;this is base example&quot;
+
+&quot;this is other example&quot;
+
+
+$rake another_example
+
+&quot;this is base example&quot;
+
+&quot;this is other example&quot;
+
+&quot;this is another example&quot;
+
+</code></pre>
+
+<blockquote>
+<p>当一个任务依赖另一个任务时，它总是要先等待上一个任务完成才执行</p>
+</blockquote>
+
+<h2 id="三-命名空间">三. 命名空间</h2>
+
+<p>顾名思义要用到namespace了</p>
+
+<pre><code>namespace :article do
+  desc 'create a article'  # 任务的描述
+  task :create_article do
+    puts 'create an article'
+  end
+end
+
+</code></pre>
+
+<blockquote>
+<p>&ldquo;desc&rdquo; 是任务的描述，我们写了desc的时候运行 rake -T 会显示出我们描述过的任务，那些没有被描述的任务则不会显示，不管怎么说，习惯性的描述一下总是对的：</p>
+</blockquote>
+
+<pre><code>$rake -T
+rake example_one                                        # example_one
+rake article: create_article                            # create a article
+
+</code></pre>
+
+<p>运行article命名空间下的一个任务：</p>
+
+<pre><code>$ rake article:create_article
+&quot;create an article&quot;
+</code></pre>
+
+<blockquote>
+<p>常使用命名空间给任务分组，便于管理，也能减少命名冲突等问题，当然看起开也优雅一些</p>
+</blockquote>
+
+<h2 id="四-任务的参数传递">四. 任务的参数传递</h2>
+
+<pre><code>desc &quot;my info&quot;
+task :my_personal_info, [:name, :sex, :age] do |t, args|
+  puts &quot;my name is #{args.name}, sex is #{args.sex}, age is #{args.age}&quot;
+end
+
+desc &quot;my other info&quot;
+task :my_personal_other_info, [:weight, height] do |t,args|
+  task(:my_personal_info).invoke(:yeluojun, :male, 25)  # 依赖的另一种写法，invoke可以换成execute
+  puts &quot;my weight is #{args.weight} and height is #{args.height}&quot;
+end
+</code></pre>
+
+<p>跑一下：</p>
+
+<pre><code>$rake my_personal_info[yeluojun,male,25]
+&quot;my name is yeluojun, sex is male, age is 25&quot;
+
+$rake my_personal_other_info[60, 170]
+&quot;my name is yeluojun, sex is male, age is 25&quot;
+&quot;my weight is 60 and height is 170&quot;
+</code></pre>
+
+<h2 id="五-在-rails-中使用-rake">五. 在 rails 中使用 rake</h2>
+
+<p>如果需要引用Rails环境需要引入environment比如：</p>
+
+<pre><code>desc &quot;test one&quot;
+task task_one: :environment do
+  puts: &quot;task one&quot;
+end
+</code></pre>
+
+<p>rails的默认环境为 development，可以通过 RAILS_ENV 参数来修改，</p>
+
+<pre><code>$rake task_one RAILS_ENV = test  # 用测试环境跑task
+$rake task_one RAILS_ENV = production  # 用生产环境跑task
+</code></pre>
+
+<p><strong>注意: rake 文件应放在 lib/tasks目录，如 lib/tasks/one.rake</strong></p>
+
+<p>HUGOMORE42</p>
+        </div>
+        <footer class="article-footer">
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+
+    
+<nav id="article-nav">
+    
+    <a href="https://yeluojun.github.io/myhugo/2016/09/11/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84ruby-http-%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          上一篇
+      </strong>
+      <div class="article-nav-title">一个简单的ruby Http 代理服务器</div>
+    </a>
+    
+
+    
+    <a href="https://yeluojun.github.io/myhugo/2017/05/01/make-your-own-ruby-gem/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          下一篇
+      </strong>
+      <div class="article-nav-title">Make Your Own Ruby Gem</div>
+    </a>
+    
+</nav>
+
+
+</article>
+
+
+    </section>
+
+   	
+    	<aside id="sidebar">
+    
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/categories/git">
+                    git
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/categories/golang">
+                    golang
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/categories/markdown">
+                    markdown
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/categories/ruby">
+                    ruby
+                </a>
+                <span class="category-list-count">4</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/categories/shadowsocks">
+                    shadowsocks
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tags
+    </h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/chanel">
+                    chanel
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/gem">
+                    gem
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/git">
+                    git
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/golang">
+                    golang
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/http">
+                    http
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/markdown">
+                    markdown
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/rails">
+                    rails
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/rake">
+                    rake
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/ruby">
+                    ruby
+                </a>
+                <span class="category-list-count">4</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/shadowsocks">
+                    shadowsocks
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/supervisor">
+                    supervisor
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/waitgroup">
+                    waitgroup
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/%E4%BB%A3%E7%90%86">
+                    代理
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/%E6%8E%A5%E5%8F%A3">
+                    接口
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA">
+                    环境搭建
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/%E7%BF%BB%E5%A2%99">
+                    翻墙
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/%E8%BF%90%E7%BB%B4">
+                    运维
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tag cloud
+    </h3>
+    <div class="widget tagcloud">
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/chanel" style="font-size: 12px;">chanel</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/gem" style="font-size: 12px;">gem</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/git" style="font-size: 12px;">git</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/golang" style="font-size: 12px;">golang</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/http" style="font-size: 12px;">http</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/markdown" style="font-size: 12px;">markdown</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/rails" style="font-size: 12px;">rails</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/rake" style="font-size: 12px;">rake</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/ruby" style="font-size: 12px;">ruby</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/shadowsocks" style="font-size: 12px;">shadowsocks</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/supervisor" style="font-size: 12px;">supervisor</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/waitgroup" style="font-size: 12px;">waitgroup</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/%E4%BB%A3%E7%90%86" style="font-size: 12px;">代理</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/%E6%8E%A5%E5%8F%A3" style="font-size: 12px;">接口</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA" style="font-size: 12px;">环境搭建</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/%E7%BF%BB%E5%A2%99" style="font-size: 12px;">翻墙</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/%E8%BF%90%E7%BB%B4" style="font-size: 12px;">运维</a>
+        
+    </div>
+</div>
+
+
+
+
+
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+    
+	</div>
+</div>
+
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017
+      Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/yeluojun">yeluojun</a>.
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://yeluojun.github.io/myhugo/fancybox/jquery.fancybox.pack.js"></script>
+<script src="https://yeluojun.github.io/myhugo/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+
+</body>
+</html>

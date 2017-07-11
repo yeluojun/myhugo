@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>代理 on 笔记</title>
+    <link>https://yeluojun.github.io/myhugo/tags/%E4%BB%A3%E7%90%86/</link>
+    <description>Recent content in 代理 on 笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
+    <lastBuildDate>Sun, 07 May 2017 12:40:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://yeluojun.github.io/myhugo/tags/%E4%BB%A3%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>通过ss来看看外面的世界</title>
+      <link>https://yeluojun.github.io/myhugo/2017/05/07/%E9%80%9A%E8%BF%87ss%E6%9D%A5%E7%9C%8B%E7%9C%8B%E5%A4%96%E9%9D%A2%E7%9A%84%E4%B8%96%E7%95%8C/</link>
+      <pubDate>Sun, 07 May 2017 12:40:02 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/2017/05/07/%E9%80%9A%E8%BF%87ss%E6%9D%A5%E7%9C%8B%E7%9C%8B%E5%A4%96%E9%9D%A2%E7%9A%84%E4%B8%96%E7%95%8C/</guid>
+      <description>&lt;h2 id=&#34;一-安装并运行ss&#34;&gt;一. 安装并运行ss&lt;/h2&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>一个简单的ruby Http 代理服务器</title>
+      <link>https://yeluojun.github.io/myhugo/2016/09/11/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84ruby-http-%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <pubDate>Sun, 11 Sep 2016 19:21:56 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/2016/09/11/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84ruby-http-%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <description>&lt;h2 id=&#34;用ruby-实现一个简单的http代理服务器&#34;&gt;用ruby 实现一个简单的http代理服务器&lt;/h2&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

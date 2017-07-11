@@ -1,7 +1,7 @@
 ---
 title: "通过ss来看看外面的世界"
 date: 2017-05-07T12:40:02+08:00
-tags: ["shadowsocks", "翻墙"]
+tags: ["shadowsocks", "翻墙", "代理"]
 categories: ["shadowsocks"]
 ---
 

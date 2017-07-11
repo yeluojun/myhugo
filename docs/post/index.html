@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <title>Posts &middot; 随记</title>
+    <title>Posts &middot; 笔记</title>
     <meta name="generator" content="Hugo 0.24.1" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,8 +10,8 @@
       <meta name="description" content="">
     
     
-      <link href="https://yeluojun.github.io/myhugo/post/index.xml" rel="alternate" type="application/rss+xml" title="随记" />
-      <link href="https://yeluojun.github.io/myhugo/post/index.xml" rel="feed" type="application/rss+xml" title="随记" />
+      <link href="https://yeluojun.github.io/myhugo/post/index.xml" rel="alternate" type="application/rss+xml" title="笔记" />
+      <link href="https://yeluojun.github.io/myhugo/post/index.xml" rel="feed" type="application/rss+xml" title="笔记" />
     
     <link rel="canonical" href="https://yeluojun.github.io/myhugo/post/"/>
     <link rel="icon" href="https://yeluojun.github.io/myhugo/favicon.ico">
@@ -67,7 +67,7 @@
           
           <i class="logo" style="background-image: url('https://yeluojun.github.io/myhugo/css/images/logo.png')"></i>
           
-          <span class="site-title">随记</span>
+          <span class="site-title">笔记</span>
       </a>
       <nav id="main-nav">
           
@@ -152,12 +152,12 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        9
+        10
         <span>Posts</span>
       </div>
       <div class="article-info-block">
         
-          15
+          17
         
         <span>
             Tags
@@ -651,150 +651,6 @@
                     </a>
 
                     <header class="article-header">
-    <a href="https://yeluojun.github.io/myhugo/2017/06/06/get-started-with-ruby-rake/">
-    <h1 class="article-title" itemprop="name">
-        Get Started With Ruby Rake
-    </h1>
-    </a>
-    <div class="article-meta">
-
-        
-        <div class="article-date">
-            <i class="fa fa-calendar"></i>
-            <time datetime="2017-06-06 15:06:35 &#43;0800 CST" itemprop="datePublished">2017-06-06</time>
-            &middot;
-            287
-            words
-            &middot;
-            2
-            minute read
-        </div>
-        
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-folder"></i>
-                
-                
-                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/categories/ruby">Ruby</a>
-                
-                
-            </div>
-            
-        
-
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-tags"></i>
-                
-                
-                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/ruby">Ruby</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/rake">rake</a>
-                
-                
-            </div>
-            
-        
-    </div>
-</header>
-
-                    <div class="article-entry" itemprop="articleBody">
-                        <p>
-                            <h2 id="一-创建任务">一. 创建任务</h2>
-
-<p>准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
-然后在rake文件夹里面创建一个叫hello.rake文件</p>
-
-<p></p>
-                        </p>
-                        <p class="article-more-link">
-                            <a href="https://yeluojun.github.io/myhugo/2017/06/06/get-started-with-ruby-rake/">
-                                Read more
-                            </a>
-                        </p>
-                    </div>
-                    <footer class="article-footer">
-    <script>
-    (function ($) {
-        
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-    </script>
-</footer>
-
-                </div>
-            </article>
-            
-            <article class="article article-type-post" itemscope="" itemprop="blogPost">
-                <div class="article-inner">
-                    
-                    </a>
-
-                    <header class="article-header">
     <a href="https://yeluojun.github.io/myhugo/2017/05/20/markdown-cheat-sheet/">
     <h1 class="article-title" itemprop="name">
         Markdown Cheat Sheet
@@ -979,6 +835,10 @@
                 
                 
                 <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/%E7%BF%BB%E5%A2%99">翻墙</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/%E4%BB%A3%E7%90%86">代理</a>
                 
                 
             </div>
@@ -1216,9 +1076,9 @@
                     </a>
 
                     <header class="article-header">
-    <a href="https://yeluojun.github.io/myhugo/2016/12/29/ruby%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/">
+    <a href="https://yeluojun.github.io/myhugo/2016/09/20/get-started-with-ruby-rake/">
     <h1 class="article-title" itemprop="name">
-        Ruby环境搭建记录
+        Get Started With Ruby Rake
     </h1>
     </a>
     <div class="article-meta">
@@ -1226,12 +1086,12 @@
         
         <div class="article-date">
             <i class="fa fa-calendar"></i>
-            <time datetime="2016-12-29 12:22:21 &#43;0800 CST" itemprop="datePublished">2016-12-29</time>
+            <time datetime="2016-09-20 15:06:35 &#43;0800 CST" itemprop="datePublished">2016-09-20</time>
             &middot;
-            116
+            287
             words
             &middot;
-            1
+            2
             minute read
         </div>
         
@@ -1260,11 +1120,7 @@
                 &middot;
                 
                 
-                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/rails">Rails</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA">环境搭建</a>
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/rake">rake</a>
                 
                 
             </div>
@@ -1275,12 +1131,160 @@
 
                     <div class="article-entry" itemprop="articleBody">
                         <p>
-                            <h2 id="ruby-on-rails-环境搭建记录-ubuntu-16-04">Ruby on Rails 环境搭建记录 - Ubuntu 16.04</h2>
+                            <h2 id="一-创建任务">一. 创建任务</h2>
+
+<p>准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
+然后在rake文件夹里面创建一个叫hello.rake文件</p>
 
 <p></p>
                         </p>
                         <p class="article-more-link">
-                            <a href="https://yeluojun.github.io/myhugo/2016/12/29/ruby%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/">
+                            <a href="https://yeluojun.github.io/myhugo/2016/09/20/get-started-with-ruby-rake/">
+                                Read more
+                            </a>
+                        </p>
+                    </div>
+                    <footer class="article-footer">
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+                </div>
+            </article>
+            
+            <article class="article article-type-post" itemscope="" itemprop="blogPost">
+                <div class="article-inner">
+                    
+                    </a>
+
+                    <header class="article-header">
+    <a href="https://yeluojun.github.io/myhugo/2016/09/11/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84ruby-http-%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/">
+    <h1 class="article-title" itemprop="name">
+        一个简单的ruby Http 代理服务器
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2016-09-11 19:21:56 &#43;0800 CST" itemprop="datePublished">2016-09-11</time>
+            &middot;
+            238
+            words
+            &middot;
+            2
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/categories/ruby">ruby</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/ruby">ruby</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/http">http</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/%E4%BB%A3%E7%90%86">代理</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+                    <div class="article-entry" itemprop="articleBody">
+                        <p>
+                            <h2 id="用ruby-实现一个简单的http代理服务器">用ruby 实现一个简单的http代理服务器</h2>
+
+<p></p>
+                        </p>
+                        <p class="article-more-link">
+                            <a href="https://yeluojun.github.io/myhugo/2016/09/11/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84ruby-http-%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/">
                                 Read more
                             </a>
                         </p>
@@ -1492,6 +1496,151 @@
                 </div>
             </article>
             
+            <article class="article article-type-post" itemscope="" itemprop="blogPost">
+                <div class="article-inner">
+                    
+                    </a>
+
+                    <header class="article-header">
+    <a href="https://yeluojun.github.io/myhugo/2016/06/29/ruby%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/">
+    <h1 class="article-title" itemprop="name">
+        Ruby环境搭建记录
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2016-06-29 12:22:21 &#43;0800 CST" itemprop="datePublished">2016-06-29</time>
+            &middot;
+            116
+            words
+            &middot;
+            1
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/categories/ruby">Ruby</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/ruby">Ruby</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/rails">Rails</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://yeluojun.github.io/myhugo/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA">环境搭建</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+                    <div class="article-entry" itemprop="articleBody">
+                        <p>
+                            <h2 id="ruby-on-rails-环境搭建记录-ubuntu-16-04">Ruby on Rails 环境搭建记录 - Ubuntu 16.04</h2>
+
+<p></p>
+                        </p>
+                        <p class="article-more-link">
+                            <a href="https://yeluojun.github.io/myhugo/2016/06/29/ruby%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/">
+                                Read more
+                            </a>
+                        </p>
+                    </div>
+                    <footer class="article-footer">
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+                </div>
+            </article>
+            
         </div>
     </section>
     <nav id="page-nav">
@@ -1543,7 +1692,7 @@
                 <a class="category-list-link" href="https://yeluojun.github.io/myhugo/categories/ruby">
                     ruby
                 </a>
-                <span class="category-list-count">3</span>
+                <span class="category-list-count">4</span>
             </li>
             
             <li class="category-list-item">
@@ -1605,6 +1754,14 @@
             
             <li class="category-list-item">
                 
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/http">
+                    http
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
                 <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/markdown">
                     markdown
                 </a>
@@ -1632,7 +1789,7 @@
                 <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/ruby">
                     ruby
                 </a>
-                <span class="category-list-count">3</span>
+                <span class="category-list-count">4</span>
             </li>
             
             <li class="category-list-item">
@@ -1657,6 +1814,14 @@
                     waitgroup
                 </a>
                 <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yeluojun.github.io/myhugo/tags/%E4%BB%A3%E7%90%86">
+                    代理
+                </a>
+                <span class="category-list-count">2</span>
             </li>
             
             <li class="category-list-item">
@@ -1720,6 +1885,9 @@
         <a href="https://yeluojun.github.io/myhugo/tags/golang" style="font-size: 12px;">golang</a>
         
         
+        <a href="https://yeluojun.github.io/myhugo/tags/http" style="font-size: 12px;">http</a>
+        
+        
         <a href="https://yeluojun.github.io/myhugo/tags/markdown" style="font-size: 12px;">markdown</a>
         
         
@@ -1739,6 +1907,9 @@
         
         
         <a href="https://yeluojun.github.io/myhugo/tags/waitgroup" style="font-size: 12px;">waitgroup</a>
+        
+        
+        <a href="https://yeluojun.github.io/myhugo/tags/%E4%BB%A3%E7%90%86" style="font-size: 12px;">代理</a>
         
         
         <a href="https://yeluojun.github.io/myhugo/tags/%E6%8E%A5%E5%8F%A3" style="font-size: 12px;">接口</a>

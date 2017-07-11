@@ -1,6 +1,6 @@
 ---
 title: "Ruby环境搭建记录"
-date: 2016-12-29T12:22:21+08:00
+date: 2016-06-29T12:22:21+08:00
 tags: ["Ruby", "Rails", "环境搭建"]
 categories: ["Ruby"]
 ---

@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ruby on 随记</title>
+    <title>Ruby on 笔记</title>
     <link>https://yeluojun.github.io/myhugo/tags/ruby/</link>
-    <description>Recent content in Ruby on 随记</description>
+    <description>Recent content in Ruby on 笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>
-    <lastBuildDate>Tue, 06 Jun 2017 15:06:35 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 01 May 2017 13:07:39 +0800</lastBuildDate>
     
 	<atom:link href="https://yeluojun.github.io/myhugo/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Get Started With Ruby Rake</title>
-      <link>https://yeluojun.github.io/myhugo/2017/06/06/get-started-with-ruby-rake/</link>
-      <pubDate>Tue, 06 Jun 2017 15:06:35 +0800</pubDate>
-      
-      <guid>https://yeluojun.github.io/myhugo/2017/06/06/get-started-with-ruby-rake/</guid>
-      <description>&lt;h2 id=&#34;一-创建任务&#34;&gt;一. 创建任务&lt;/h2&gt;
-
-&lt;p&gt;准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
-然后在rake文件夹里面创建一个叫hello.rake文件&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Make Your Own Ruby Gem</title>
@@ -38,11 +24,36 @@
     </item>
     
     <item>
-      <title>Ruby环境搭建记录</title>
-      <link>https://yeluojun.github.io/myhugo/2016/12/29/ruby%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link>
-      <pubDate>Thu, 29 Dec 2016 12:22:21 +0800</pubDate>
+      <title>Get Started With Ruby Rake</title>
+      <link>https://yeluojun.github.io/myhugo/2016/09/20/get-started-with-ruby-rake/</link>
+      <pubDate>Tue, 20 Sep 2016 15:06:35 +0800</pubDate>
       
-      <guid>https://yeluojun.github.io/myhugo/2016/12/29/ruby%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://yeluojun.github.io/myhugo/2016/09/20/get-started-with-ruby-rake/</guid>
+      <description>&lt;h2 id=&#34;一-创建任务&#34;&gt;一. 创建任务&lt;/h2&gt;
+
+&lt;p&gt;准备工作：先创建一个叫rake的文件夹，创建一个叫Ｒakefile的文件；然后在rake文件夹里面创建一个叫tasks的文件夹，
+然后在rake文件夹里面创建一个叫hello.rake文件&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>一个简单的ruby Http 代理服务器</title>
+      <link>https://yeluojun.github.io/myhugo/2016/09/11/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84ruby-http-%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <pubDate>Sun, 11 Sep 2016 19:21:56 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/2016/09/11/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84ruby-http-%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <description>&lt;h2 id=&#34;用ruby-实现一个简单的http代理服务器&#34;&gt;用ruby 实现一个简单的http代理服务器&lt;/h2&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ruby环境搭建记录</title>
+      <link>https://yeluojun.github.io/myhugo/2016/06/29/ruby%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Wed, 29 Jun 2016 12:22:21 +0800</pubDate>
+      
+      <guid>https://yeluojun.github.io/myhugo/2016/06/29/ruby%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid>
       <description>&lt;h2 id=&#34;ruby-on-rails-环境搭建记录-ubuntu-16-04&#34;&gt;Ruby on Rails 环境搭建记录 - Ubuntu 16.04&lt;/h2&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

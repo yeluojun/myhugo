@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Waitgroup on 随记</title>
+    <title>Waitgroup on 笔记</title>
     <link>https://yeluojun.github.io/myhugo/tags/waitgroup/</link>
-    <description>Recent content in Waitgroup on 随记</description>
+    <description>Recent content in Waitgroup on 笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [yeluojun](http://github.com/yeluojun).</copyright>

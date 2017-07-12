@@ -57,7 +57,8 @@
       <guid>https://yeluojun.github.io/myhugo/2017/05/20/markdown-cheat-sheet/</guid>
       <description>&lt;p&gt;This note demonstrates some of what &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; is capable of doing.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Note: Feel free to play with this page. Unlike regular notes, this doesn&amp;rsquo;t automatically save itself.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: Feel free to play with this page. Unlike regular notes, this doesn&amp;rsquo;t automatically save itself.&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Markdown语法学习: &lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34;&gt;https://guides.github.com/features/mastering-markdown/&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

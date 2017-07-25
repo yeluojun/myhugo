@@ -23,11 +23,6 @@
   </url>
   
   <url>
-    <loc>https://yeluojun.github.io/myhugo/about/</loc>
-    <lastmod>2017-05-19T21:49:20+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yeluojun.github.io/myhugo/2017/05/07/%E9%80%9A%E8%BF%87ss%E6%9D%A5%E7%9C%8B%E7%9C%8B%E5%A4%96%E9%9D%A2%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
     <lastmod>2017-05-07T12:40:02+08:00</lastmod>
   </url>
@@ -55,6 +50,10 @@
   <url>
     <loc>https://yeluojun.github.io/myhugo/2016/06/29/ruby%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2016-06-29T12:22:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yeluojun.github.io/myhugo/about/</loc>
   </url>
   
   <url>

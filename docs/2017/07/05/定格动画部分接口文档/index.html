@@ -51,7 +51,7 @@
 
 
 <meta itemprop="dateModified" content="2017-07-05T23:16:55&#43;08:00" />
-<meta itemprop="wordCount" content="216">
+<meta itemprop="wordCount" content="289">
 
 
 
@@ -99,8 +99,6 @@
           
 
           
-          <a class="main-nav-link" href="/myhugo/about/">简历</a>
-          
 
           
           
@@ -129,8 +127,6 @@
           
           
 
-          
-          <td><a class="main-nav-link" href="/myhugo/about/">简历</a></td>
           
 
           
@@ -271,7 +267,7 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2017-07-05 23:16:55 &#43;0800 CST" itemprop="datePublished">2017-07-05</time>
             &middot;
-            216
+            289
             words
             &middot;
             2
@@ -360,7 +356,8 @@
       &quot;CreateAt&quot;:&quot;2017-06-27T17:48:35+08:00&quot;,
       &quot;UpdateAt&quot;:&quot;2017-06-27T17:48:35+08:00&quot;,
       &quot;Version&quot;:1,
-      &quot;Size&quot;:&quot;6632453&quot;
+      &quot;Size&quot;:&quot;6632453&quot;,
+      &quot;Duration&quot;: &quot;183.556&quot;
       },
       {
         &quot;Id&quot;:1,
@@ -369,7 +366,8 @@
         &quot;SortBy&quot;:2,&quot;CreateAt&quot;:&quot;2017-06-27T14:42:50+08:00&quot;,
         &quot;UpdateAt&quot;:&quot;2017-06-27T14:42:50+08:00&quot;,
         &quot;Version&quot;:1,
-        &quot;Size&quot;:&quot;6632453&quot;
+        &quot;Size&quot;:&quot;6632453&quot;,
+        &quot;Duration&quot;: &quot;188.1234&quot;
       },
       {
         &quot;Id&quot;:2,
@@ -379,7 +377,8 @@
         &quot;CreateAt&quot;:&quot;2017-06-27T14:46:48+08:00&quot;,
         &quot;UpdateAt&quot;:&quot;2017-06-27T14:46:48+08:00&quot;,
         &quot;Version&quot;:1,
-        &quot;Size&quot;:&quot;6992130&quot;
+        &quot;Size&quot;:&quot;6992130&quot;,
+        &quot;Duration&quot;: &quot;88.1234&quot;
       }
     ],
   &quot;Counts&quot;:3
@@ -625,7 +624,98 @@
 <p>返回值（失败）：
 同上</p>
 
-<p>HUGOMORE42</p>
+<hr />
+
+<h3 id="上传文件">上传文件</h3>
+
+<p><strong>上传文件分三步走：</strong></p>
+
+<ul>
+<li>第一步: 从服务器端获取上传凭证</li>
+<li>第二步：根据凭证，上传文件到七牛云。</li>
+<li>第三步：将七牛云的文件路径发送到服务器</li>
+</ul>
+
+<h4 id="获取上传凭证">获取上传凭证</h4>
+
+<p><strong>url：</strong> <a href="http://39.108.158.131/api/v1/q_video_t">http://39.108.158.131/api/v1/q_video_t</a></p>
+
+<p><strong>返回值：</strong></p>
+
+<pre><code>{
+  &quot;uptoken&quot;: &quot;一堆东西&quot;
+}
+</code></pre>
+
+<h4 id="上传文件到七牛云">上传文件到七牛云</h4>
+
+<p>安卓：<a href="https://developer.qiniu.com/kodo/api/1312/upload">直传</a>, <a href="https://developer.qiniu.com/kodo/sdk/1664/android-sdk-6">SDK</a><br />
+IOS: <a href="https://developer.qiniu.com/kodo/api/1312/upload">直传</a>, <a href="https://developer.qiniu.com/kodo/sdk/1240/objc">SDK</a></p>
+
+<blockquote>
+<p>注意： 不用指定文件名称（key为null)。</p>
+</blockquote>
+
+<p>返回值：</p>
+
+<pre><code>{ &quot;name&quot;: &quot;名称&quot;, &quot;size&quot;: “大小”, &quot;hash&quot;: &quot;hash&quot;, &quot;key&quot;: &quot;key&quot; }
+</code></pre>
+
+<p>文件的路径： <a href="http://host/key">http://host/key</a></p>
+
+<h3 id="发送文件路路径到到服务器">发送文件路路径到到服务器</h3>
+
+<p><strong>url:</strong>  (POST)<a href="http://39.108.158.131/api/v1/q_video_t">http://39.108.158.131/api/v1/q_video_t</a></p>
+
+<p><strong>参数:</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>时候必须</th>
+<th>默认值</th>
+<th>解释</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>url</td>
+<td>是</td>
+<td>无</td>
+<td>文件的路径</td>
+</tr>
+
+<tr>
+<td>title</td>
+<td>否</td>
+<td>无</td>
+<td>视频的标题</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>返回值:</strong></p>
+
+<pre><code>{
+  &quot;Code&quot;:200,
+  &quot;Msg&quot;:&quot;成功&quot;,
+  &quot;Data&quot;:{
+    &quot;Url&quot;:&quot;http://127.0.0.1:9090/shares/10&quot; # Url 为分享页面的Url
+  }
+}
+
+</code></pre>
+
+<p>返回值：（失败)，Ｃode不为200均为失败，比如：</p>
+
+<pre><code>{
+  &quot;Code&quot;:50002,
+  &quot;Msg&quot;:&quot;解析资源信息失败&quot;,
+  &quot;Data&quot;:null
+}
+</code></pre>
         </div>
         <footer class="article-footer">
     <script>
